@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>クリップボードの中身をチェックするページ</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="text/javascript" src='./main.js'>
+  </script>
+</head>
+<body>
+  <div class='title'>
+    <h1>クリップボードに格納されているデータのタイプと中身を確認するページ</h1>
+    <p>このページ上でペーストすると下のテーブルに結果が出力されます</p>
+  </div>
+  <div class='result'>
+    <table>
+      <thead>
+        <tr>
+          <th>タイプ</th>
+          <th>内容</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+  <div class='expl'>
+    <p>javascriptのclipboardDataAPIを利用して、クリップボードの中身を取得しています</p>
+    <p>ブラウザによっては動作しない可能性があります</p>
+    <p>詳しくは<a href="">このページのレポジトリ</a>や<a href="">Qiitaの記事</a>を参照してください</p>
+  </div>
+</body>
+</html>
